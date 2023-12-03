@@ -1,0 +1,23 @@
+footer {
+    background-color: $background-color_3;
+    
+    nav {
+      display: flex;
+      justify-content: space-around;
+      gap: 10%;
+      padding: 1.25%;
+      a {
+        color: $color_2;
+        text-decoration:wavy;
+      }      
+    }
+  }
+
+  .link {
+    color: $color_2;
+    text-decoration:wavy;
+  }
+
+  .link:hover {
+    color :$color_4;
+  }

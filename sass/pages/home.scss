@@ -1,0 +1,32 @@
+#home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./../../image/bg4.jpg);
+    background-size: cover;
+}
+
+#picture {
+    border-radius: 50%;
+}
+
+#name {
+    font-size: larger;
+    color: $color_2;
+    margin:0;
+    padding:15px;
+    font-weight: 700;
+}
+
+#job {
+    font-size: larger;
+    color: $color_2;
+    margin:0;
+}
+
+#presentation {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:40px;
+}

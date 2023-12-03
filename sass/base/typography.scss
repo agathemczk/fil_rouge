@@ -1,0 +1,43 @@
+body {
+    font-weight: $Quicksand;
+}
+
+header {
+    a {
+        color: $color_1;
+        font-family: $Nunito;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+footer {
+    color: $color_2;
+    font-family: $Nunito;
+}
+
+#home {
+    font-family: $Quicksand;
+}
+
+.tittle {
+    font-family :$Raleway;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#button {
+    font-family :$Dosis;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+#PLEASE {
+    font-family :$Dosis;
+    color:$color_2;
+}
+
+.code {
+    font-family :$Dosis;
+    color:$color_2;
+}

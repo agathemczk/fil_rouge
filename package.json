@@ -1,0 +1,11 @@
+{
+  "name": "tpsass",
+  "version": "1.0.0",
+  "description": "curriculum vitae",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

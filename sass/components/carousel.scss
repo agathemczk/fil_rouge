@@ -1,0 +1,27 @@
+.social_media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    gap: 60px;
+  }
+
+.container {
+    width:50%;
+    height:400px;
+  }
+
+.tittle {
+    border-bottom: 1px solid black;
+    margin:0;
+    padding:20px;
+}
+
+.link {
+  color: $color_2;
+  text-decoration:wavy;
+}
+
+.link:hover {
+  color :$color_4;
+}

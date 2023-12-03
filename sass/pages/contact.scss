@@ -1,0 +1,25 @@
+#contact {
+    background-image: url(./../../image/bg3.jpg);
+    background-size: cover;   
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    #button {
+        height : 40px;
+        width: 150px;
+        background-color: $background-color_3;
+        color:$color_2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    } 
+
+    #button:hover {
+        transform: scale(1.2);
+        transition:500ms;
+        cursor:pointer;
+    }
+}

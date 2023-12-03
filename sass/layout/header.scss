@@ -1,0 +1,18 @@
+header {
+    background-color: $background-color_2;
+
+  #header_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 2%;
+    margin:0;
+  }
+
+  .menu_header:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition:500ms;
+  }
+}
