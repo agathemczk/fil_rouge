@@ -90,7 +90,6 @@
 } 
 
 @media all and (min-width:426px) and (max-width:755px) {
-
     .container {
         display:flex;
         flex-direction: column;
@@ -222,4 +221,27 @@
         flex-direction: column-reverse;
         align-content: center;
     }
+}
+
+@media all and (min-width:319px) and (max-width:755px) {
+    #home {
+        order:1
+    }
+
+    #summary #sum {
+        order:2;
+    }
+
+    #summary #language {
+        order:3;
+    }
+
+    #skills #skill {
+        order:4
+    }
+
+    #skills #graphics {
+        order:5;
+    }
+
 }
