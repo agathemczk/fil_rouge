@@ -1,6 +1,7 @@
 .social_media {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align:justify;
     gap: 60px;

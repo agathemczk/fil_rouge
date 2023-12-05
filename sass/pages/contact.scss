@@ -2,6 +2,7 @@
     background-image: url(./../../image/bg3.jpg);
     background-size: cover;   
     display: flex;  
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -12,6 +13,7 @@
         background-color: $background-color_3;
         color:$color_2;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         

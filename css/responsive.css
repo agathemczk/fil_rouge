@@ -1,0 +1,100 @@
+@media all and (min-width:769px) and (max-width:1025px) {
+    #summary #sum .text {
+        gap:30px;
+        padding:15px;
+    }
+
+    #experience #exp .text {
+        gap:30px;
+        padding:20px;
+    }
+
+    #skills #skill .text {
+        gap:30px;
+        padding:30px;
+    }
+
+    #summary #language ul {
+        padding:120px;
+    }
+
+    .container {
+        height:300px;
+    }
+} 
+
+
+@media all and (min-width:426px) and (max-width:769px) {
+    .container {
+        height:250px;
+    }
+
+    #picture {
+        height: 100px;
+        width: 100px;
+    }
+
+    #name {
+        padding:10px;
+    }
+
+    #presentation {
+        margin-bottom: 10px;
+    }
+
+    .tittle {
+        padding:10px;
+    }
+
+    #summary #sum ul {
+        font-size: smaller;
+    }
+
+    #skills #skill ul {
+        font-size: smaller;
+        padding:20px;
+        gap:20px;
+    }
+
+    #experience #exp ul {
+        font-size: smaller;
+        gap:20px;
+        padding:20px;
+    }
+
+    #summary #sum .text {
+        gap:20px;
+        padding:20px;
+    }
+
+    #summary #language ul {
+        padding:100px;
+    }
+
+    #skills .progress-bar-container {
+        padding:28px;
+    }
+
+    #copyright p {
+        font-size : smaller;
+    }
+
+    .social_media {
+        font-size : smaller;
+    }
+
+    footer nav {
+        align-items: center;
+        padding:0;
+        font-size: smaller;
+    }
+} 
+
+@media all and (min-width:319px) and (max-width:656px) {
+
+    main nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}

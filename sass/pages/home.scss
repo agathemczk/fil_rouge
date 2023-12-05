@@ -1,5 +1,6 @@
 #home {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     background-image: url(./../../image/bg4.jpg);
@@ -26,6 +27,7 @@
 
 #presentation {
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     margin:40px;
