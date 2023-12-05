@@ -23,8 +23,7 @@
     }
 } 
 
-
-@media all and (min-width:426px) and (max-width:769px) {
+@media all and (min-width:755px) and (max-width:769px) {
     .container {
         height:250px;
     }
@@ -90,11 +89,137 @@
     }
 } 
 
-@media all and (min-width:319px) and (max-width:656px) {
+@media all and (min-width:426px) and (max-width:755px) {
 
-    main nav {
-        flex-wrap: wrap;
+    .container {
+        display:flex;
         flex-direction: column;
+        width: 100%; 
     }
 
+    #skills #skill .container {
+        order:-1;
+        flex: 1 0 100%;
+    }
+
+    .social_media {
+        gap:30px;
+    }
+
+    footer nav {
+        justify-content: center;
+        gap:5%;
+    }
+
+    #skills #skill ul {
+        padding:25px;
+    }
+
+    #skills #graphics {
+        align-items: center;
+    }
+
+    #summary #sum ul {
+        padding:25px;
+    }
+}
+
+@media all and (min-width:319px) and (max-width:426px) {
+    header #header_list {
+        gap:5%;
+        font-size:smaller;
+    }
+
+    #name {
+        font-size:smaller;
+    }
+
+    #job {
+        font-size:smaller;
+    }
+
+    #picture {
+        height: 90px;
+        width: 90px;
+    }
+
+    .social_media {
+        gap: 20px;
+        padding: 10px;
+        font-size:smaller;
+    }
+
+    #presentation {
+        margin:20px;
+    }
+
+    .container {
+        display:flex;
+        flex-direction: column;
+        width: 100%; 
+        height:250px;
+    }
+
+    #skills #skill .container {
+        order:-1;
+        flex: 1 0 100%;
+    }
+
+    .tittle {
+        padding:10px;
+        font-size: smaller;
+    }
+
+    #summary #sum ul {
+        font-size: smaller;
+        gap:15px;
+        padding:20px;
+    }
+
+    #summary #language ul {
+        padding:100px;
+    }
+
+    #skills #skill ul {
+        font-size: smaller;
+        gap:25px;
+        padding:20px;
+    }
+
+    #experience #exp ul {
+        font-size: smaller;
+        gap:25px;
+        padding:20px;
+    }
+
+    .link {
+        font-size: smaller;
+    }
+
+    #copyright {
+        font-size: smaller;
+    }
+
+    .social_media {
+        padding:0;
+    }
+
+    #skills .progress-bar-container {
+        padding:0;
+    }
+}
+
+@media all and (min-width:319px) and (max-width:818px) {
+
+    #copyright {
+        padding:0;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer nav {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
 }
